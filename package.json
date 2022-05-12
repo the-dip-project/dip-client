@@ -6,6 +6,9 @@
   "contributors": [
     ""
   ],
+  "bin": {
+    "dip": "./cli"
+  },
   "private": false,
   "license": "GPL-3.0-or-later",
   "scripts": {

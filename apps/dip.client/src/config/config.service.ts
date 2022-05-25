@@ -7,8 +7,8 @@ import { Injectable, Scope } from '@nestjs/common';
 import { notAllowedKeys, Schema, schemaValidator } from './schema';
 
 const defaultConfig: Schema = {
-  server: '127.0.0.1',
-  apiKey: ' '.repeat(64),
+  server: 'http://127.0.0.1',
+  'api-key': ' '.repeat(64),
   watches: [],
 };
 

@@ -104,4 +104,8 @@ export class ConfigService {
     if (method === 'get') this.getConfig(key);
     else this.setConfig(key, value);
   }
+
+  public get(key: string) {
+    return this.config[key];
+  }
 }

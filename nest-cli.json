@@ -12,7 +12,6 @@
     "dip.client": {
       "type": "application",
       "root": "apps/dip.client",
-      "entryFile": "main",
       "sourceRoot": "apps/dip.client/src",
       "compilerOptions": {
         "tsConfigPath": "apps/dip.client/tsconfig.app.json"

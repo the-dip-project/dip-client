@@ -1,9 +1,10 @@
+import { CommandModule } from 'nestjs-command';
+
 import { Module } from '@nestjs/common';
-import { ConsoleModule } from '@squareboat/nest-console';
-import { AppService } from './app.service';
+
+import { ConfigModule } from './config/config.module';
 
 @Module({
-  imports: [ConsoleModule],
-  providers: [AppService],
+  imports: [CommandModule, ConfigModule, ConfigModule],
 })
 export class AppModule {}
